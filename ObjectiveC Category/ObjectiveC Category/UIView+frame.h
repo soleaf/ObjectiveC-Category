@@ -14,8 +14,8 @@
 - (void)setSizeWidth:(float)newWidth;
 - (void)setSizeHeight:(float)newHeight;
 
-- (float)getOriginX;
-- (float)getOriginY;
+- (float)originX;
+- (float)originY;
 - (void)setOriginX:(float)newX;
 - (void)setOriginY:(float)newY;
 

@@ -10,13 +10,13 @@
 @implementation UIView (Frame)
 
 /*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
-}
-*/
+ // Only override drawRect: if you perform custom drawing.
+ // An empty implementation adversely affects performance during animation.
+ - (void)drawRect:(CGRect)rect
+ {
+ // Drawing code
+ }
+ */
 
 -(float)sizeHeight
 {
@@ -42,12 +42,12 @@
     self.frame = frame;
 }
 
--(float)getOriginX
+-(float)originX
 {
-   return self.frame.origin.x;
+    return self.frame.origin.x;
 }
 
--(float)getOriginY
+-(float)originY
 {
     return self.frame.origin.y;
 }
